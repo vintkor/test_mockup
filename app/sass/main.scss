@@ -1,0 +1,17 @@
+@import "variables-functions-and-mixins";
+
+::selection { background: rgba($main-color, .5); }
+
+.align-right { text-align: right; }
+.align-left { text-align: left; }
+.align-center { text-align: center; }
+
+h1 {font-size: 32px;}
+h2 {font-size: 28px;}
+h3 {font-size: 20px;}
+h4 {font-size: 18px;}
+h5 {font-size: 16px;}
+h6 {font-size: 14px;}
+
+@import 'media';
+@import "fonts";

@@ -1,0 +1,396 @@
+::-moz-selection {
+  background: rgba(0, 173, 208, 0.5);
+}
+
+::selection {
+  background: rgba(0, 173, 208, 0.5);
+}
+
+.align-right {
+  text-align: right;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.align-center {
+  text-align: center;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+h5 {
+  font-size: 16px;
+}
+
+h6 {
+  font-size: 14px;
+}
+
+.header {
+  height: 575px;
+  background-image: url("../img/header-image.jpg");
+  background-position: top center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.header:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 173, 208, 0.4);
+  z-index: 0;
+}
+
+.header-wrapper {
+  position: relative;
+  z-index: 2;
+  max-width: 500px;
+}
+
+.header-title {
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.header-list {
+  margin: 0;
+  padding: 0;
+}
+
+.header-list-item {
+  list-style: none;
+  color: rgba(255, 255, 255, 0.7);
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 18px;
+}
+
+.header-list-item:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 6px;
+  height: 6px;
+  margin-top: -3px;
+  background: #fff;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+}
+
+.section2 {
+  padding: 80px 0;
+}
+
+.section2-title {
+  margin-bottom: 70px;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.section2-items {
+  margin-top: 80px;
+}
+
+.section2-icon-wrapper:nth-child(even) {
+  text-align: right;
+}
+
+.section2-subtitle {
+  position: relative;
+}
+
+.section2-subtitle:before {
+  content: attr(data-number);
+  display: block;
+  position: absolute;
+  top: -30px;
+  font-size: 16px;
+  font-weight: bold;
+  left: 0;
+  color: #00add0;
+}
+
+.section2-info {
+  font-weight: 300;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.section3 {
+  background: #00add0;
+  padding: 80px 0;
+}
+
+.section3 .owl-dots {
+  text-align: center;
+}
+
+.section3 .owl-dots .owl-dot {
+  width: 5px;
+  height: 5px;
+  background: rgba(255, 255, 255, 0.7);
+  margin: 0 5px;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  -webkit-transition: .2s ease-in-out;
+  transition: .2s ease-in-out;
+}
+
+.section3 .owl-dots .owl-dot.active {
+  background: #fff;
+  -webkit-transform: scale(2);
+      -ms-transform: scale(2);
+          transform: scale(2);
+}
+
+.section3 .owl-dots .owl-dot:active, .section3 .owl-dots .owl-dot:focus {
+  outline: none;
+}
+
+.section3-title {
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.section3-desc {
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.section3-item-wrapper {
+  text-align: center;
+  margin: 40px 20px;
+}
+
+.section3-item-wrapper:hover .section3-item-icon svg path {
+  fill: #00add0;
+}
+
+.section3-item {
+  background: #f5f5f5;
+  padding: 20px 50px;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.section3-item-icon svg {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.section3-item-icon svg path {
+  -webkit-transition: fill .1s ease-in-out;
+  transition: fill .1s ease-in-out;
+  fill: rgba(0, 0, 0, 0.2);
+}
+
+.section3-item-text {
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 300;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.section3-item-image {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: 50%;
+  bottom: 0;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  -webkit-transform: translateY(30px) translateX(-30px);
+      -ms-transform: translateY(30px) translateX(-30px);
+          transform: translateY(30px) translateX(-30px);
+  background-size: cover;
+  background-position: center center;
+}
+
+.section3-item-name {
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+.section3-item-date {
+  font-weight: 300;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.section4 {
+  padding: 100px 0;
+}
+
+.section4-image {
+  width: 100%;
+  max-width: 430px;
+  height: auto;
+}
+
+.section4-title-wrapper {
+  max-width: 500px;
+}
+
+.section4-title {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.section4-desc {
+  font-weight: 300;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.dis-flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section4-subtitle {
+  position: relative;
+  padding-left: 30px;
+  text-transform: uppercase;
+}
+
+.section4-subtitle:before {
+  content: '';
+  display: block;
+  width: 10px;
+  height: 10px;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  background: #00add0;
+  left: 0;
+  top: 50%;
+  -webkit-transform: translateY(-5px);
+      -ms-transform: translateY(-5px);
+          transform: translateY(-5px);
+  position: absolute;
+}
+
+.section4-subdesc {
+  padding-left: 30px;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.section5 {
+  padding: 80px 0;
+  background: #f5f5f5;
+}
+
+.section5-title {
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.section5-subtitle {
+  text-transform: uppercase;
+  font-weight: 300;
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 18px;
+}
+
+.section5-items {
+  padding: 40px;
+}
+
+.section5-item-icon {
+  font-weight: bold;
+  color: #00add0;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.section5-item-title {
+  margin-bottom: 20px;
+}
+
+.section5-item-desc {
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 14px;
+}
+
+.section6 {
+  padding: 80px 0;
+}
+
+.section6-title {
+  margin-bottom: 20px;
+}
+
+.section6-desc {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 15px;
+}
+
+.section6-form {
+  margin-top: 30px;
+}
+
+.section6-form label {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 14px;
+}
+
+.section6-form input,
+.section6-form select {
+  -webkit-border-radius: 0;
+          border-radius: 0;
+}
+
+.section6-button {
+  text-transform: uppercase;
+  background: #00add0;
+  padding: 10px 60px;
+  color: #fff;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  margin-top: 40px;
+}
+
+.section6-footer {
+  margin-top: 40px;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 300;
+}
+
+/*# sourceMappingURL=../css/main.css.map */

@@ -1,0 +1,23 @@
+{
+  "name": "thamplate",
+  "description": "My first gulp using",
+  "main": "index.js",
+  "authors": [
+    "Alexandr Kuchinskiy"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/libs/",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap": "^4",
+    "owl.carousel": "owl-carousel2#^2.3.4"
+  }
+}
