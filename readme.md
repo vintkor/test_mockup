@@ -4,7 +4,6 @@
 ### Требования
 Должены быть установленны [NodeJS](https://nodejs.org), NPM, [GIT](https://git-scm.com/), [Gulp](http://gulpjs.com/) и [Bower](https://bower.io/)
 ### Установка
-Для установки скопируйте или скачатйте репозиторий [https://github.com/vintkor/Web-tamplete.git](https://github.com/vintkor/Web-tamplete.git) и запустите команды 
 ```
 npm install
 ```
